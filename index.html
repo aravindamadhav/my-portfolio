@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Annambhotla Aravinda Madhav: ECE student, VLSI and FPGA intern, and Director and CEO of Syntarica Networks. Open to VLSI, RTL design, FPGA, embedded systems and PCB design internships and jobs.">
+<meta name="keywords" content="VLSI intern, RTL design, FPGA engineer, Verilog, VHDL, embedded systems, PCB design, design verification, digital design, ECE, Vijayawada">
+<meta property="og:title" content="Annambhotla Aravinda Madhav | VLSI, FPGA and Embedded">
+<meta property="og:description" content="ECE student and founder, open to VLSI, FPGA and embedded internships and jobs.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Annambhotla Aravinda Madhav","email":"aravindamadhavsharma0@gmail.com","telephone":"+917995534761","jobTitle":"Director and CEO; ECE student","worksFor":{"@type":"Organization","name":"Syntarica Networks Private Limited"},"alumniOf":"Prasad V. Potluri Siddhartha Institute of Technology","knowsAbout":["VLSI design","Verilog","FPGA","RTL design","Embedded systems","PCB design","Static timing analysis"]}</script>
+<title>Annambhotla Aravinda Madhav | Founder &amp; VLSI Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#edf1ef;--ink:#10202b;--mute:#4d5f6a;--line:#c5d0cd;--sig:#0f7b6c;--cur:#f2c230;--card:#f8faf9;--ease:cubic-bezier(.7,0,.2,1);box-sizing:border-box}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1a20;--ink:#e6efec;--mute:#9db0b6;--line:#26383f;--sig:#3fd0b8;--card:#14242b}}
+:root[data-theme="dark"]{--bg:#0e1a20;--ink:#e6efec;--mute:#9db0b6;--line:#26383f;--sig:#3fd0b8;--card:#14242b}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "IBM Plex Sans",system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3{font-family:"Bricolage Grotesque",Georgia,sans-serif;line-height:1.05;margin:0}
+h1{font-weight:800;font-size:clamp(38px,10vw,96px);letter-spacing:-.03em}
+h2{font-weight:800;font-size:clamp(30px,5vw,44px);letter-spacing:-.02em;margin-bottom:22px}
+a{color:var(--sig)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--cur);outline-offset:3px}
+.wrap{max-width:920px;margin:0 auto;padding:0 20px}
+/* top bar */
+header.bar{position:fixed;top:0;left:0;right:0;z-index:50;padding:env(safe-area-inset-top,0px) 0 0;border-bottom:1px solid var(--line)}
+header.bar::before{content:"";position:absolute;inset:0;z-index:-1;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:1100px}
+.logo,#menu{position:relative;z-index:45}
+.logo{font:800 20px "Bricolage Grotesque",sans-serif;color:var(--ink);text-decoration:none;letter-spacing:-.02em}
+.logo b{color:var(--sig)}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+nav a{position:relative;display:block;padding:8px 14px;color:var(--ink);text-decoration:none;font-weight:500;font-size:16px}
+nav a::after{content:"";position:absolute;left:14px;right:14px;bottom:2px;height:3px;background:var(--cur);transform:scaleX(0);transform-origin:left;transition:transform .4s var(--ease)}
+nav a:hover::after,nav a[aria-current="page"]::after{transform:scaleX(1)}
+nav a[aria-current="page"]{color:var(--sig)}
+#menu{display:none;background:none;border:2px solid var(--line);border-radius:10px;width:46px;height:46px;cursor:pointer;color:var(--ink);padding:0}
+#menu span{display:block;width:20px;height:2px;background:currentColor;margin:5px auto;transition:transform .35s var(--ease),opacity .2s}
+#menu[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+#menu[aria-expanded="true"] span:nth-child(2){opacity:0}
+#menu[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+/* views */
+main{position:relative;min-height:100vh;padding-top:calc(64px + env(safe-area-inset-top,0px))}
+.view{display:none;padding:48px 0 80px;background:var(--bg)}
+.view.active{display:block;position:relative;z-index:2}
+.view.active:not(.first){animation:wipe .8s var(--ease) backwards}
+.view.out{position:absolute;left:0;right:0;top:calc(64px + env(safe-area-inset-top,0px));z-index:1;animation:none!important}
+@keyframes wipe{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}
+.view.active .rv{animation:up .7s var(--ease) both;animation-delay:calc(var(--i,0)*80ms + 250ms)}
+.view.first.active .rv{animation-delay:calc(var(--i,0)*80ms)}
+@keyframes up{from{opacity:0;transform:translateY(var(--dy,28px))}to{opacity:1;transform:none}}
+#sweep{position:fixed;top:0;bottom:0;left:0;width:4px;background:var(--cur);z-index:60;opacity:0;pointer-events:none;box-shadow:0 0 24px var(--cur)}
+#sweep.go{animation:sw .8s var(--ease)}
+@keyframes sw{0%{opacity:1;transform:translateX(0)}99%{opacity:1}100%{opacity:0;transform:translateX(100vw)}}
+/* intro */
+#intro{position:fixed;inset:0;z-index:100;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:20px;transition:clip-path 1s var(--ease);clip-path:inset(0)}
+#intro.done{clip-path:inset(0 0 100% 0)}
+#intro svg{width:min(520px,90vw)}
+#intro .nm{font:800 clamp(22px,5vw,40px) "Bricolage Grotesque",sans-serif;letter-spacing:-.02em;text-align:center}
+#intro .nm span{display:inline-block;opacity:0;transform:translateY(14px);animation:up .5s var(--ease) forwards}
+#intro small{color:var(--mute);font-size:15px;opacity:0;animation:up .6s 1.1s var(--ease) forwards}
+.iw{fill:none;stroke:var(--sig);stroke-width:3;stroke-linejoin:round;stroke-dasharray:900;stroke-dashoffset:900;animation:dr 1.6s ease-out forwards}
+@keyframes dr{to{stroke-dashoffset:0}}
+/* content */
+.role{color:var(--mute);font-size:19px;max-width:34em;margin:20px 0 0}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.btn{display:inline-block;font:500 16px "IBM Plex Sans",sans-serif;text-decoration:none;padding:12px 22px;border-radius:999px;border:2px solid var(--sig);transition:transform .25s var(--ease)}
+.btn:hover{transform:translateY(-3px)}
+.btn.p{background:var(--sig);color:var(--bg)}
+.scope{margin-top:34px;border:1px solid var(--line);background:var(--card);border-radius:6px;padding:14px 14px 8px;overflow-x:auto}
+.scope svg{display:block;min-width:620px;width:100%;height:auto}
+.lbl{font:500 12px "IBM Plex Sans",sans-serif;fill:var(--mute)}.tag{font:500 13px "IBM Plex Sans",sans-serif;fill:var(--ink)}
+.w{fill:none;stroke:var(--sig);stroke-width:2.5;stroke-linejoin:round;stroke-dasharray:1600;stroke-dashoffset:1600;animation:dr 2.4s .5s ease-out forwards}
+.w2{animation-delay:.8s}.w3{animation-delay:1.1s}
+.grid{stroke:var(--line)}
+.cursor{stroke:var(--cur);stroke-width:2;animation:cs 2.4s .5s ease-out forwards}
+@keyframes cs{to{transform:translateX(520px)}}
+.intro p{font-size:clamp(20px,3vw,25px);line-height:1.5;max-width:30em;margin:0 0 16px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:0 0 18px}
+.chips li{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:6px 14px;font-size:15px}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.why div{border-top:4px solid var(--sig);padding-top:10px}.why h3{font-size:21px;margin-bottom:6px}.why p{margin:0;color:var(--mute);font-size:16px}
+.fsm{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.fsm button{font:500 16px "IBM Plex Sans",sans-serif;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:999px;padding:10px 20px;cursor:pointer;transition:background .25s,border-color .25s}
+.fsm button[aria-pressed="true"]{border-color:var(--sig);background:var(--sig);color:var(--bg)}
+.fsm i{color:var(--mute);font-style:normal}
+.panel{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--sig);border-radius:4px;padding:20px 22px;max-width:40em;margin-bottom:20px}
+.panel.sw{animation:up .5s var(--ease)}
+.panel h3{font-size:24px;margin-bottom:4px}.panel .meta{color:var(--mute);font-size:15px;margin:0 0 12px}
+.panel ul{margin:0;padding-left:20px}.panel li{margin:8px 0}
+dl{display:grid;grid-template-columns:minmax(120px,190px) 1fr;gap:14px 24px;margin:0}
+dt{font-weight:500;color:var(--sig)}dd{margin:0}
+.certs{list-style:none;padding:0;margin:0;max-width:42em}
+.certs li{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--line)}
+.certs span{color:var(--mute);font-size:15px;white-space:nowrap}
+.edu{display:flex;flex-wrap:wrap;gap:24px;align-items:center}
+.cg{font:800 64px "Bricolage Grotesque",sans-serif;letter-spacing:-.03em;color:var(--sig);line-height:1}
+.contact a.big{display:block;font:800 clamp(22px,5vw,40px)/1.3 "Bricolage Grotesque",sans-serif;word-break:break-all}
+footer{padding:24px 0 36px;color:var(--mute);font-size:14px;border-top:1px solid var(--line)}
+@media (max-width:760px){
+#menu{display:block}
+nav{position:fixed;inset:0;top:0;z-index:40;background:var(--bg);padding:calc(90px + env(safe-area-inset-top,0px)) 28px 28px;clip-path:inset(0 0 100% 0);visibility:hidden;transition:clip-path .6s var(--ease),visibility 0s .6s}
+nav.open{clip-path:inset(0);visibility:visible;transition:clip-path .6s var(--ease)}
+nav ul{flex-direction:column;gap:6px}
+nav a{font:800 clamp(30px,9vw,42px)/1.2 "Bricolage Grotesque",sans-serif;padding:8px 0;opacity:0;transform:translateX(-24px);transition:opacity .4s,transform .5s var(--ease)}
+nav a::after{left:0;right:auto;width:60px}
+nav.open a{opacity:1;transform:none;transition-delay:calc(var(--n)*60ms + 200ms)}
+.bar{z-index:50}
+dl{grid-template-columns:1fr;gap:2px}dd{margin-bottom:14px}.certs li{flex-direction:column;gap:0}}
+@media (prefers-reduced-motion:reduce){:root{--dy:0px}.view.active:not(.first){animation:fadein .6s ease backwards}#sweep{display:none}nav a{transform:none}}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+</style>
+</head>
+<body>
+<div id="intro" aria-hidden="true">
+  <svg viewBox="0 0 520 70"><path class="iw" d="M0 55H60V15H120V55H180V15H240V55H300V15H360V55H420V15H520"/></svg>
+  <div class="nm" id="nm"></div><small>VLSI, FPGA and embedded systems</small>
+</div>
+<div id="sweep"></div>
+<header class="bar">
+  <div class="wrap">
+    <a class="logo" href="#home">Madhav<b>.</b></a>
+    <button id="menu" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="nav" aria-label="Sections"><ul>
+      <li><a href="#home" style="--n:0">Home</a></li><li><a href="#about" style="--n:1">About</a></li><li><a href="#experience" style="--n:2">Experience</a></li><li><a href="#skills" style="--n:3">Skills</a></li><li><a href="#education" style="--n:4">Education</a></li><li><a href="#certifications" style="--n:5">Certificates</a></li><li><a href="#contact" style="--n:6">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+<main>
+<section class="view" id="home" aria-label="Home"><div class="wrap">
+  <h1 class="rv">Annambhotla<br>Aravinda Madhav</h1>
+  <p class="role rv">Director and CEO of Syntarica Networks Private Limited, and an Electronics and Communication Engineering student in Vijayawada who turns Verilog into working hardware on FPGA boards.</p>
+  <div class="cta rv"><a class="btn p" href="mailto:aravindamadhavsharma0@gmail.com?subject=Opportunity%20for%20Madhav">Email me about a role</a><a class="btn" href="#experience">See my experience</a></div>
+  <div class="scope rv" role="img" aria-label="Timing diagram of a clock, a reset and a state signal moving from IDLE to LEARN to BUILD to LEAD">
+    <svg viewBox="0 0 620 190">
+      <g><line class="grid" x1="70" y1="0" x2="70" y2="190"/><line class="grid" x1="200" y1="0" x2="200" y2="190"/><line class="grid" x1="330" y1="0" x2="330" y2="190"/><line class="grid" x1="460" y1="0" x2="460" y2="190"/><line class="grid" x1="590" y1="0" x2="590" y2="190"/></g>
+      <text class="lbl" x="0" y="34">clk</text><text class="lbl" x="0" y="94">rst_n</text><text class="lbl" x="0" y="156">state</text>
+      <path class="w" d="M70 44V24H110V44H150V24H190V44H230V24H270V44H310V24H350V44H390V24H430V44H470V24H510V44H550V24H590"/>
+      <path class="w w2" d="M70 104V84H590"/>
+      <path class="w w3" d="M70 140H200L210 156L200 172H330L340 156L330 140H460L470 156L460 172H590M70 140V172"/>
+      <text class="tag" x="108" y="161">IDLE</text><text class="tag" x="238" y="161">LEARN</text><text class="tag" x="368" y="161">BUILD</text><text class="tag" x="498" y="161">LEAD</text>
+      <line class="cursor" x1="70" y1="0" x2="70" y2="190" style="stroke:var(--cur)"/>
+    </svg>
+  </div>
+  <h2 class="rv" style="margin-top:56px;font-size:28px">Open to internships and jobs in</h2>
+  <ul class="chips rv">
+    <li>VLSI Design Intern</li><li>RTL Design Engineer</li><li>FPGA Engineer</li><li>Design Verification Engineer</li><li>Digital Design Engineer</li><li>Embedded Systems Engineer</li><li>PCB Design Engineer</li><li>Hardware Engineer Trainee</li><li>Graduate Engineer Trainee, ECE</li><li>Networking and Communication Engineer</li>
+  </ul>
+  <div class="why rv" style="margin-top:34px">
+    <div><h3>I know the full flow</h3><p>Verilog RTL, simulation, synthesis, place-and-route and static timing analysis, done on real FPGA boards.</p></div>
+    <div><h3>Hardware plus software</h3><p>I write C, Python and Java next to Verilog and VHDL, so I can connect firmware, tools and silicon.</p></div>
+    <div><h3>I own outcomes</h3><p>As Director and CEO of Syntarica Networks, I am used to deadlines, clients and making decisions.</p></div>
+  </div>
+</div></section>
+
+<section class="view" id="about" aria-label="About"><div class="wrap">
+  <h2 class="rv">Hello, I'm Madhav.</h2>
+  <div class="intro">
+    <p class="rv">I am an entrepreneur and engineer. I run Syntarica Networks Private Limited as its Director and CEO, and I like the moment a design stops being a diagram and starts blinking on a board.</p>
+    <p class="rv">I write state machines and sequential circuits in Verilog, push them through synthesis, place-and-route and timing analysis, then read the waveforms until every signal makes sense.</p>
+    <p class="rv">This summer I did that for real as a VLSI FPGA intern, working next to senior design engineers on the path from RTL to gates.</p>
+  </div>
+  <h2 class="rv" style="margin-top:44px;font-size:28px">My path, as a state machine</h2>
+  <div class="fsm rv" role="group" aria-label="Choose a state"><button data-s="0" aria-pressed="true">LEARN</button><i aria-hidden="true">&rarr;</i><button data-s="1" aria-pressed="false">BUILD</button><i aria-hidden="true">&rarr;</i><button data-s="2" aria-pressed="false">LEAD</button></div>
+  <div class="panel rv" id="panel" aria-live="polite"></div>
+</div></section>
+
+<section class="view" id="experience" aria-label="Experience"><div class="wrap">
+  <h2 class="rv">Experience</h2>
+  <div class="panel rv"><h3>Director and CEO</h3><p class="meta">Syntarica Networks Private Limited</p><ul><li>Lead the company as Director and CEO while completing my engineering degree</li><li>Bring design-review discipline from hardware work into running a business</li></ul></div>
+  <div class="panel rv"><h3>VLSI FPGA Intern</h3><p class="meta">Sense Semiconductor Industry (SSIT), Mangalagiri. May to July 2026</p><ul><li>Designed and simulated finite state machines and sequential circuits in Verilog HDL</li><li>Implemented and tested RTL on FPGA boards: synthesis, place-and-route and static timing analysis</li><li>Debugged with waveform analysis, improving first-pass verification accuracy</li><li>Joined design reviews with senior engineers and saw the flow from RTL to gate level</li></ul></div>
+</div></section>
+
+<section class="view" id="skills" aria-label="Skills"><div class="wrap">
+  <h2 class="rv">Skills</h2>
+  <dl class="rv">
+    <dt>RTL and digital design</dt><dd>Verilog HDL, VHDL, finite state machines, sequential and combinational circuits, digital circuit design, RTL coding</dd>
+    <dt>VLSI design flow</dt><dd>Simulation, testbench-driven verification, waveform debugging, synthesis, place-and-route, static timing analysis, RTL to gate-level implementation</dd>
+    <dt>FPGA</dt><dd>FPGA design and verification, implementing and testing RTL designs on FPGA boards, hardware prototyping</dd>
+    <dt>Embedded and PCB</dt><dd>Embedded systems, PCB design (government-run training)</dd>
+    <dt>Networking</dt><dd>Computer networks, TCP/IP, networking and communication fundamentals, cybersecurity basics</dd>
+    <dt>Programming</dt><dd>C, Python, Java, object-oriented design, data structures, Android development</dd>
+    <dt>Emerging</dt><dd>Quantum computing fundamentals (WISER and QUBITECH)</dd>
+    <dt>Professional</dt><dd>Technical documentation, IT support and troubleshooting, design reviews, cross-functional collaboration, leadership as a company director</dd>
+  </dl>
+</div></section>
+
+<section class="view" id="education" aria-label="Education"><div class="wrap">
+  <h2 class="rv">Education</h2>
+  <div class="edu rv"><div class="cg">8.5<small style="font-size:24px">/10</small></div>
+  <div><strong>B.Tech, Electronics and Communication Engineering</strong><br>Prasad V. Potluri Siddhartha Institute of Technology, Vijayawada<br><span style="color:var(--mute)">Aug 2024 to present. Coursework: Digital Circuit Design, VLSI Design, Embedded Systems, Computer Networks, Data Structures.</span></div></div>
+</div></section>
+
+<section class="view" id="certifications" aria-label="Certifications"><div class="wrap">
+  <h2 class="rv">Certifications</h2>
+  <ul class="certs rv">
+    <li>Java Foundation <span>Infosys Springboard, Mar 2026</span></li>
+    <li>Python Foundation <span>Infosys Springboard, Feb 2026</span></li>
+    <li>C Programming Language <span>Infosys Springboard, Aug 2025</span></li>
+    <li>PCB Design Training <span>Govt. of Andhra Pradesh, Aug to Oct 2025</span></li>
+    <li>Programming Essentials in Python <span>Cisco Networking Academy, Aug 2024</span></li>
+    <li>Introduction to Cybersecurity <span>Cisco Networking Academy, Jul 2024</span></li>
+    <li>Quantum Fundamentals <span>WISER &amp; QUBITECH, Feb 2024</span></li>
+  </ul>
+</div></section>
+
+<section class="view contact" id="contact" aria-label="Contact"><div class="wrap">
+  <h2 class="rv">Let's talk</h2>
+  <p class="rv" style="max-width:32em;color:var(--mute)">Hiring for an internship or a role in VLSI, FPGA, embedded or PCB design? Write to me.</p>
+  <a class="big rv" href="mailto:aravindamadhavsharma0@gmail.com">aravindamadhavsharma0@gmail.com</a>
+  <a class="big rv" href="tel:7995534761">7995534761</a>
+</div></section>
+</main>
+<footer><div class="wrap">Director and CEO, Syntarica Networks Private Limited. Vijayawada, Andhra Pradesh, India</div></footer>
+<script>
+(function(){
+var S=[
+{t:"Learn",m:"Aug 2024 to present, PVP Siddhartha Institute of Technology",l:["Digital circuit design, VLSI design, embedded systems and computer networks in the B.Tech ECE program","CGPA of 8.5/10","Certified in C, Python, Java, PCB design, cybersecurity and quantum fundamentals"]},
+{t:"Build",m:"VLSI FPGA Intern, SSIT. May to July 2026",l:["Verilog state machines and sequential circuits, simulated and tested on FPGA boards","Synthesis, place-and-route and static timing analysis","Waveform debugging and design reviews with senior engineers"]},
+{t:"Lead",m:"Director and CEO, Syntarica Networks Private Limited",l:["Founder and entrepreneur, leading the company alongside my studies","Open to collaborations, internships and projects"]}];
+var p=document.getElementById("panel"),fb=document.querySelectorAll(".fsm button");
+function show(i){var s=S[i];p.innerHTML="<h3></h3><p class='meta'></p><ul></ul>";p.querySelector("h3").textContent=s.t;p.querySelector(".meta").textContent=s.m;
+s.l.forEach(function(x){var li=document.createElement("li");li.textContent=x;p.querySelector("ul").appendChild(li)});
+fb.forEach(function(k,j){k.setAttribute("aria-pressed",j==i)});p.classList.remove("sw");void p.offsetWidth;p.classList.add("sw")}
+fb.forEach(function(k){k.addEventListener("click",function(){show(+k.dataset.s)})});show(0);
+
+var views=document.querySelectorAll(".view"),links=document.querySelectorAll("nav a"),sweep=document.getElementById("sweep"),nav=document.getElementById("nav"),menu=document.getElementById("menu");
+views.forEach(function(v){v.querySelectorAll(".rv").forEach(function(e,i){e.style.setProperty("--i",i)})});
+var cur=null,first=true;
+function setMenu(o){nav.classList.toggle("open",o);menu.setAttribute("aria-expanded",o);menu.setAttribute("aria-label",o?"Close menu":"Open menu");document.body.style.overflow=o?"hidden":""}
+menu.addEventListener("click",function(){setMenu(!nav.classList.contains("open"))});
+function goTo(id){
+  var n=document.getElementById(id);if(!n||!n.classList.contains("view")){id="home";n=document.getElementById("home")}
+  setMenu(false);
+  if(n===cur)return;
+  var o=cur;cur=n;clearTimeout(n._t);n.classList.remove("out");
+  n.classList.toggle("first",first);n.classList.add("active");
+  links.forEach(function(a){a.getAttribute("href")==="#"+id?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current")});
+  if(o){o.classList.add("out");clearTimeout(o._t);o._t=setTimeout(function(){o.classList.remove("active","out")},820);
+    sweep.classList.remove("go");void sweep.offsetWidth;sweep.classList.add("go")}
+  window.scrollTo(0,0);first=false;
+}
+function go(){goTo(location.hash.slice(1))}
+window.addEventListener("hashchange",function(){goTo(location.hash.slice(1))});
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest('a[href^="#"]');if(!a)return;e.preventDefault();var id=a.getAttribute("href").slice(1);try{history.pushState(null,"","#"+id)}catch(x){}goTo(id)});
+var intro=document.getElementById("intro"),started=false;
+function start(){if(started)return;started=true;go();intro.classList.add("done");setTimeout(function(){intro.remove()},1100)}
+var nm=document.getElementById("nm");"Annambhotla Aravinda Madhav".split("").forEach(function(c,i){var s=document.createElement("span");s.textContent=c===" "?"\u00a0":c;s.style.animationDelay=(.3+i*.045)+"s";nm.appendChild(s)});
+setTimeout(start,2300);intro.addEventListener("click",start);
+})();
+</script>
+</body>
+</html>
